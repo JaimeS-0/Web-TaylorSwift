@@ -1,0 +1,95 @@
+
+/* Main */
+
+.ts-h1, .ts-p{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ts-p {
+    font-size: large;
+}
+
+.imgAlbum {
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.colorSpan {
+    color: #09f;
+}
+
+.container-album {
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    
+}
+@media (max-width: 700px) {
+    .container-album {
+        flex-direction: column; 
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}   
+
+.colorFecha {
+    color: red;
+}
+.boton-album {
+    background-color: rgb(255, 0, 157);
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    transition: trasnform .3s ease;
+}
+
+.boton-album:hover {
+    transform: scale(1.1);
+}
+
+.btnAlbum {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.dentro-seccion-album {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.texto {
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.discografiaTay{
+    max-width: 250px;
+    /*float: left;*/
+    margin-left: 100px;
+    height: 40vh;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+
+

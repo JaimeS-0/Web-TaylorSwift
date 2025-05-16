@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Importamos css y js vanila-->
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/global.css">
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/changeLanguage.js" type="module"></script>
+
+    <!-- Importamos el favicon -->
+    <link rel="shortcut icon" href="./img/TS-favicon.png" type="image/x-icon">
+    
+    <!-- Importamos bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Importamos para usar fuente texto personalizado-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- jQuey para animaciones -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+ 
+</head>
+
+<body class="ts-body">
+    
+    <header>
+
+        <nav>
+            <ul class="ts-container-nav">
+
+                <li>
+                    <img src="./img/Logo TS.jpg" alt="Logo Taylor Swift" class="logo" width="50" height="60">
+                </li>
+                <li>
+                    <a href="index.html" id="navHome" class="active">Home</a>
+                </li>|
+                <li>
+                    <a href="discografy.html" id="navDiscography">Discography</a>
+                </li>|
+                <li>
+                    <a href="biography.html" id="navBiography">Biography</a>
+                </li>|
+                <li>
+                    <a href="pictures.html" id="navPhotos">Pictures</a>
+                </li>|
+                
+
+                <div class="ts-container-language">
+
+                    <span class="ts-en" id="english">English</span>
+
+                    <li class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="languageSwitch">
+                    </li>
+
+                    <span class="ts-es" id="spanish">Spanish</span>
+                </div>
+
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main class="ts-main">
+        
+        <!-- h1 generadocon jQuery -->
+        <h1 class="ts-h1" id="title"></h1>
+
+        <h2 class="ts-h2" id="subtitle">Explore the life and career of the world's most influential artist</h2>
+
+
+        <video class="ts-video" src="./img/TAYLOR SWIFT.mp4" autoplay loop muted preload="auto" controls>
+            <!--<track kind="subtitles" label="Español">-->
+        </video>
+
+        <a class="botonVideo"
+            href="https://www.youtube.com/watch?v=kInExOcXILc&list=PLnu6EW--jkM30RgZf7ZOf6IoGa7FhZpq7&index=3"
+            target="_blank">
+
+            <button class="ts-miraVideo" id="buttonVideo">
+                Watch the Concert again
+            </button>
+        </a>
+
+    </main>
+
+    <br>
+
+    <footer>
+
+        <hr>
+
+        <ul class="container-footer">
+            <li>Copyright © <span id="year"></span> </li>|
+
+            <li>
+                <a href="https://www.aepd.es/sites/default/files/2020-10/guia-proteccion-datos-por-defecto.pdf"
+                    target="_blank" id="policy">
+                    Privacy Policy
+                </a>
+            </li>|
+
+            <li>
+                <a href="https://superadmin.es/blog/privacidad/plantilla-aviso-legal/" target="_blank" id="legal">
+                    Legal notice
+                </a>
+            </li>|
+
+            <li>
+                <a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g" target="_blank">
+                    <img class="socialMedia" src="./img/redSocial/youtube.svg" alt="Ir Youtube" >
+                </a>
+            </li>|
+
+            <li>
+                <a href="https://www.facebook.com/TaylorSwift/" target="_blank">
+                    <img class="socialMedia" src="./img/redSocial/facebook.svg" alt="Ir Facebook">
+                </a>
+            </li>|
+
+            <li>
+                <a href="https://www.instagram.com/taylorswift/" target="_blank">
+                    <img class="socialMedia" src="./img/redSocial/instagram.svg" alt="Ir Instagram">
+                </a>
+            </li>|
+
+
+            <li>
+                <a href="https://x.com/taylorswift13" target="_blank">
+                    <img class="socialMedia" src="./img/redSocial/X.svg" alt="Ir X">
+                </a>
+            </li>|
+
+            <li>
+                <a href="https://www.tiktok.com/@taylorswift?lang=en" target="_blank">
+                    <img class="socialMedia" src="./img/redSocial/tiktok.svg" alt="Ir TikTok">
+                </a>
+            </li>|
+
+            <li id="web">
+                <span class="colorSpan">Taylor's</span>
+                official website
+                <a href="https://www.taylorswift.com/" target="_blank">Taylor Swift.com</a>
+            </li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>

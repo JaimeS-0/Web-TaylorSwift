@@ -1,0 +1,22 @@
+
+
+/* Main */
+
+
+h1 {
+    display: grid;
+    justify-content: center;
+}
+main {
+    max-width: 100%;
+}
+
+section {
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.row {
+    max-width: 100%;
+}
+
